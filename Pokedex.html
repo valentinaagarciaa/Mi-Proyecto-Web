@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Verdana;
+            margin: 0;
+        }
+        header {
+            background-color: rgb(255, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 0 10%;
+        }
+        header > h1{
+            display: inline-block;
+            margin-left: 30px;
+        }
+        nav {
+            margin: 10px 10px;
+        }
+        nav > a {
+            padding: 0 10px;
+        }
+        #pokedex {
+            width: 750px;
+            margin: 50px auto;
+        }
+        #left {
+            width: 250px;
+            height: 310px;
+            float: left;
+            background-color: rgb(255, 0, 0);
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        #rigth {
+            width: 250px;
+            height: 260px;
+            margin-top: 50px;
+            background-color: rgb(255, 0, 0);
+            border-left-color: rgb(187, 0, 0) ;
+            border-left-style: solid;
+            border-left-width: 3px;
+            float: left;
+            border-bottom-right-radius: 30px;
+        }
+        .display {
+            border-color: #494949;
+            border-style: solid;
+            border-radius: 15px;
+            border-width: 5px;
+        }
+        #left > .display {
+            width: 180PX;
+            height: 150px;
+            margin-left: 35px;
+            margin-top: 40px;
+            background-color: white;
+        }
+        #left > .display > img {
+            margin-left: 15px;
+            height: 100%;
+        }
+        #dpad {
+            width: 60px;
+            margin-top: 15px;
+            margin-left: 50px;
+            display: inline-block;
+        }
+        #btn-circle {
+            width: 50px;
+            height: 50px;
+            margin-left: 160px;
+            border-style: solid;
+            border-color: #181a81;
+            border-radius: 25px;
+            background-color: #0631e6;
+            display: inline-block;
+        }
+        #dpad-top, #dpad-bottom{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+            background-color: #222;
+        }
+        #dpad-horizontal {
+            width: 60px;
+            height: 20px;
+            background-color: #222;
+        }
+        #rigth > .display {
+            width: 180px;
+            height: 150px;
+            margin-left: 35px;
+            margin-top: 30px;
+            background-color: green;
+            font-size: 12px;
+        }
+        ul {
+             margin: 0;
+             padding: 0;
+        }
+        li {
+            list-style-type: none;
+        }
+        li > p {
+            margin: 0 5px;
+        }
+    </style>
+    <header>
+        
+        <img id="logo" src="assets/logo.png" alt="logo" width="60">
+        <h1>Mi Pokedex<h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Acerca</a>
+    </nav>
+    <main>
+        <hr>
+        <div id="pokedex">
+            <div id="left">
+             <div class="display">
+              <img id="rayquaza" src="assets/Rayquaza.png" alt="Rayquaza" height="150px">
+             </div>
+             <div id="dpad"></div>
+             <div id="dpad-top"></div>
+             <div id="dpad-horizontal"></div> 
+             <div id="dpad-bottom"></div>   
+             <div id="btn-circle"></div>
+            </div>
+            <div id="rigth">
+                <div class="display">
+                    <ul>
+                        <li>
+                            <p><b>Nombre: </b>Rayquaza</p>
+                        </li>
+                        <li>
+                            <p><b>Tipo: </b>Dragon/Volador</p>
+                        </li>
+                        <li>
+                            <p><b>Altura: </b>7,0m</p>
+                        </li>
+                        <li>
+                            <p><b>Peso: </b>206,5</p>
+                        </li>
+                        <li>
+                            <p><b>Descripcion: </b>Es un pokemon legendario que representa los cielos y equilibra los poderes del mar y la tierra</p>
+                        </li>
+                        <li>
+                            <p><b>Region: </b>Hoenn</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="pad">
+                 <div class="btn"></div>
+                 <div class="btn"></div>
+                 <div class="btn"></div>
+                 <div class="btn"></div>
+                 <div class="btn"></div>
+                 <div class="btn"></div>
+                 <div class="btn"></div>
+                 <div class="btn"></div>
+                </div>
+            </div>         
+        </div>      
+    </main>
+</body>            
+</html>
