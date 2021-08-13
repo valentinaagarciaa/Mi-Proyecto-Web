@@ -1,0 +1,100 @@
+
+header {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    margin-left: 35px;
+    margin-right: 35px;
+    padding: auto;
+    background-color: crimson;
+    color: white;
+}
+nav {
+    padding: 30px;
+    width: auto;
+    height: auto;
+}
+items-nav {
+    margin-top: 5px;
+    margin-bottom: 5Apx;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80px;
+}
+items-menu {
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+class-item {
+    width: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+header {
+    padding: 0px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+class-item {
+    width: 70%;
+}
+nav {
+    height: 120px;
+}
+class-item {
+    width: 30px;
+}
+class-marca {
+    margin-bottom: 10px;
+}
+class-header {
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+}
+class-item {
+    width: 22%;
+}
+class-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+main {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 1000px;
+    padding-left: 50px;
+}
+li {
+    display: inline;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: crimson;
+}
+ul {
+    background-color:crimson;
+}
+a {
+    background-color: crimson;
+    transition: background-color .10;
+}
+a .hover {
+    background-color: white;
+}
+a {
+    border-color: red;
+    border-radius: 30px;
+}
+.my-image {
+   width: 200px;
+   height: 200px; 
+}
