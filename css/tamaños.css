@@ -1,0 +1,70 @@
+/* Ancho maximo 500px */
+nav {
+    padding: 30px;
+    width: 100px auto;
+    height: auto;
+    align-items: center;
+}
+items-nav {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 80px;
+}
+items-menu {
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+class-item {
+    width: 90%;
+    margin-bottom: 30px;
+    align-items: center;
+}
+header {
+    padding: 0px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+/* Ancho minimo 505px */
+class-item {
+    width: 70%;
+}
+nav {
+    height: 120px;
+}
+/* Ancho minimo de 700px */
+class-item {
+    width: 70%;
+}
+nav {
+    height: 75px;
+    justify-content: flex-start;
+}
+/* Ancho minimo de 980px */
+class-marca {
+    margin-bottom: 10px;
+}
+class-header {
+    text-align: justify;
+    justify-content: space-between;
+    align-items: center;
+}
+class-item {
+    width: 22%;
+}
+class-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+main {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
