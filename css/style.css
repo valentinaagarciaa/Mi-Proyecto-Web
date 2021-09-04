@@ -14,7 +14,7 @@ li {
     float: left;
 }
 a {
-    display: block;
+    display: inline-block;
     padding: 8px;
     background-color: crimson;
 }

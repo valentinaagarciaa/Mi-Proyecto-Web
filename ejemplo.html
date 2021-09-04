@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="elem"></div>
+
+    <script>
+        let element = document.getElementById("elem");
+        const url = "https://pokeapi.co/api/v2/pokemon/";
+        let pokemon = "entei";
+    
+        fetch(url+pokemon)
+        .then(function(response){
+            return response.json();    
+        })
+    
+
+        .then(function(data){
+            //info recibida
+            let div=crearNodo("div");
+            let img=crearNodo("img");
+            let nombre=crearNodo("span");
+            let id=crearNodo("span");
+            img.src=data.sprites.front_default;
+            id.innerHTML=" ["+data.id+ "] :";
+            nombre.innerHTML=data.name;    
+            adjuntar(div,nombre);
+            adjuntar(div,id);
+            adjuntar(div,img);
+            adjuntar(element,div); 
+            console.log(data);
+        })
+    
+       .catch(function(error){
+            console.log(error);           
+        });
+    
+        function crearNodo(elemento){
+            return document.createElement(elemento);
+        }
+    
+        function adjuntar(padre,hijo){
+            return padre.appendChild(hijo);
+        }
+    
+    
+    </script>
+</body>
+</html>

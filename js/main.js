@@ -1,0 +1,1 @@
+$(".mobile-menu").click(function(e){e.preventDefault();$(".vertical-nav").toggleClass("active");});$(".vertical-nav ul a").click(function(e){$(".vertical-nav").removeClass("active");});

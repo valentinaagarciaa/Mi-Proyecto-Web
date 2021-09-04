@@ -1,0 +1,17 @@
+header {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 35px;
+    padding: auto;
+    background-color: lavender;
+    color: white;
+    border-radius: 15px;
+}
+ul {
+    margin-right: 1070px;
+    margin-left: 30px;
+    padding: 8px;
+    background-color: lavender;
+    border-radius: 15px;
+}
